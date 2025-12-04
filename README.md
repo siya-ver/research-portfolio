@@ -49,7 +49,9 @@ My contributions sit at the intersection of **research, policy, and product insi
 
 ---
 
-## 6. Ezio: LLM Hallucination Detection & Trust Scoring  
+# Hackathons & Other
+
+## 1. Ezio: LLM Hallucination Detection & Trust Scoring  
 **Role**: Co-Founder  
 **Hackathon Recognition**: Top 10 Finalist – AI Hackathon  
 **Summary**: Designed trust-scoring framework for LLM output using Exa and Perplexity APIs. Developed research-informed first-of-its-kind scoring weights (accuracy, sycophancy, reliability) based on academic AI + HCI literature.  
@@ -57,13 +59,19 @@ My contributions sit at the intersection of **research, policy, and product insi
 
 ---
 
-## 7. The Weekly Thesis - Substack Newsletter 
+##2. Winner of Penn's AI For Social Good Hackathon (2025) 
+**Summary**: Pitched and created an MVP for an LLM-based tax assistant for international students and gig workers. Chosen as Best Overall Product out of 100+ hackathon entries. 
+🔗 [Pitch Deck](https://docs.google.com/presentation/d/1ayOAZS474FUgMjU2hhXubJgvDp8ZvgDF/edit?usp=sharing&ouid=109500888987218503739&rtpof=true&sd=true)
+
+---
+
+## 3. The Weekly Thesis - Substack Newsletter 
 **Summary**: Weekly synthesis of technical papers regarding AI and recent headlines that relate to AI policy and safety. 
 🔗 (https://theweeklythesis.substack.com/)
 
 ---
 
-## Contact  
+# Contact  
 **Email**: siyaver@sas.upenn.edu  
 **LinkedIn**: [linkedin.com/in/siyaverma](https://linkedin.com/in/siyaverma)
 
