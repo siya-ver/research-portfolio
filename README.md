@@ -11,9 +11,12 @@ My contributions sit at the intersection of **research, policy, and product insi
 ---
 
 ## 1. AI-Human Interaction Dynamics  
-**Role**: Lead Author  
+**Role**: Lead Author 
+
 **Presented at**: American Political Science Association Annual Meeting 2025, Stanford AI Industry Symposium on Frontier AI
+
 **Status**: Forthcoming book chapter (2026)  
+
 **Summary**: Led qualitative coding of 4,000+ AI community forum transcript lines to analyze public opinion on AI-human interaction. Co-authored study with Princeton, Yale, and Harvard researchers; now being translated into actionable internal insights for a global AI firm.   
 
 ---
