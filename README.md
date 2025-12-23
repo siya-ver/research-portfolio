@@ -59,7 +59,7 @@ My contributions sit at the intersection of **research, policy, and product insi
 
 ---
 
-##2. Winner of Penn's AI For Social Good Hackathon (2025) 
+## 2. Winner of Penn's AI For Social Good Hackathon (2025) 
 **Summary**: Pitched and created an MVP for an LLM-based tax assistant for international students and gig workers. Chosen as Best Overall Product out of 100+ hackathon entries. 
 🔗 [Pitch Deck](https://docs.google.com/presentation/d/1ayOAZS474FUgMjU2hhXubJgvDp8ZvgDF/edit?usp=sharing&ouid=109500888987218503739&rtpof=true&sd=true)
 
