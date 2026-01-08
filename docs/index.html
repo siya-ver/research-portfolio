@@ -9,43 +9,46 @@
 <body>
   <div class="container">
     <header class="topbar">
-      <div class="brand">Siya Verma</div>
+      <div class="siteName">Siya Verma</div>
       <nav class="nav">
-        <a class="active" href="index.html">About</a>
-        <a href="pages/publications.html">Publications</a>
-        <a href="pages/talks.html">Talks</a>
-        <a href="pages/web-presence.html">Web presence</a>
+        <a class="active" href="./index.html">About</a>
+        <a href="./pages/publications.html">Publications</a>
+        <a href="./pages/talks.html">Talks</a>
+        <a href="./pages/web-presence.html">Web presence</a>
       </nav>
     </header>
 
     <section class="hero">
-      <img class="avatar" src="assets/img/headshot.jpg" alt="Headshot" />
+      <img class="avatar" src="./assets/img/headshot.jpg" alt="Headshot" />
       <div>
         <h1 class="hi">Hi, I’m Siya.</h1>
-        <p class="subline">
+        <p class="blurb">
           I research AI governance, human–AI interaction, and public opinion, with a focus on how trust is formed and how reliability can be made legible to users.
           My work has been presented at APSA, Stanford, Yale, and in briefings to the US Congress.
         </p>
 
-        <div class="metaRow">
-          <div class="pill"><span class="label">Email</span> <span>siyaver[at]sas.upenn.edu</span></div>
-          <a class="pill" href="https://linkedin.com/in/siyaverma"><span class="label">LinkedIn</span> <span>linkedin.com/in/siyaverma</span></a>
-          <a class="pill" href="https://github.com/siya-ver"><span class="label">GitHub</span> <span>github.com/siya-ver</span></a>
-          <a class="pill" href="https://theweeklythesis.substack.com/"><span class="label">Substack</span> <span>theweeklythesis.substack.com</span></a>
+        <div class="emailText">Email: <strong>siyaver[at]sas.upenn.edu</strong></div>
+
+        <div class="linksRow" aria-label="Links">
+          <span class="linkPill"><a href="https://linkedin.com/in/siyaverma">LinkedIn</a></span>
+          <span class="linkPill"><a href="https://github.com/siya-ver">GitHub</a></span>
+          <span class="linkPill"><a href="https://theweeklythesis.substack.com/">Substack</a></span>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <h2 class="sectionTitle">Focus</h2>
-      <p class="sectionHint">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle">Focus</h2>
+      </div>
+      <p class="sectionSub">
         I work at the intersection of research, policy, and product insight, translating qualitative and quantitative findings into strategies for product teams, policymakers, and academic audiences.
       </p>
 
-      <div class="split">
+      <div class="grid2">
         <div class="card">
-          <h3 class="smallTitle">Core areas</h3>
-          <ul class="list">
+          <h3 class="boxTitle">Core areas</h3>
+          <ul class="clean">
             <li>AI governance and trust</li>
             <li>Human–AI interaction and user mental models</li>
             <li>Deliberative polling and public opinion</li>
@@ -54,8 +57,8 @@
         </div>
 
         <div class="card">
-          <h3 class="smallTitle">Methods</h3>
-          <ul class="list">
+          <h3 class="boxTitle">Methods</h3>
+          <ul class="clean">
             <li>Qualitative coding and thematic analysis</li>
             <li>Survey and deliberative polling design</li>
             <li>Mixed-methods synthesis for stakeholders</li>
@@ -66,8 +69,10 @@
     </section>
 
     <section class="section">
-      <h2 class="sectionTitle">Research projects</h2>
-      <p class="sectionHint">
+      <div class="sectionHeader">
+        <h2 class="sectionTitle">Research projects</h2>
+      </div>
+      <p class="sectionSub">
         Selected work across AI–human interaction, education policy, and cross-cultural perceptions of AI agents.
       </p>
 
@@ -79,10 +84,10 @@
               <div class="cardMeta">Lead Author · APSA 2025, Stanford AI Industry Symposium · Forthcoming book chapter (2026)</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">HCI</span>
-            <span class="badge slate">Public opinion</span>
-            <span class="badge">Qualitative coding</span>
+          <div class="tags">
+            <span class="tag forest">HCI</span>
+            <span class="tag slate">Public opinion</span>
+            <span class="tag">Qualitative coding</span>
           </div>
           <p class="desc">
             Led qualitative coding of 4,000+ AI community forum transcript lines to analyze public opinion on AI–human interaction.
@@ -97,19 +102,19 @@
               <div class="cardMeta">Project and Research Lead · Yale AI Governance Conference, iCivics · Congressional briefing (45+ members)</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Policy</span>
-            <span class="badge slate">Education</span>
-            <span class="badge">Deliberative polling</span>
+          <div class="tags">
+            <span class="tag forest">Policy</span>
+            <span class="tag slate">Education</span>
+            <span class="tag">Deliberative polling</span>
           </div>
           <p class="desc">
             Designed and launched three national education polling events engaging students, teachers, and school boards.
             Results informed international education policy in Albania and Greece.
           </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Student Perspectives (CSBA)</a>
-            <a class="linkBtn" href="#">Educator Perspectives (CSBA)</a>
-            <a class="linkBtn" href="#">All reports</a>
+          <div class="cardLinks">
+            <a class="btn" href="#">Student perspectives (CSBA)</a>
+            <a class="btn" href="#">Educator perspectives (CSBA)</a>
+            <a class="btn" href="#">All reports</a>
           </div>
         </article>
 
@@ -120,10 +125,10 @@
               <div class="cardMeta">Lead Author · APSA 2025 · Under review</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Governance</span>
-            <span class="badge slate">Youth vote</span>
-            <span class="badge">Thematic analysis</span>
+          <div class="tags">
+            <span class="tag forest">Governance</span>
+            <span class="tag slate">Youth vote</span>
+            <span class="tag">Thematic analysis</span>
           </div>
           <p class="desc">
             Analyzed 400+ responses from first-time voters in “America in One Room: Youth Vote” using Excel-based thematic analysis,
@@ -138,10 +143,10 @@
               <div class="cardMeta">Lead Author · To be presented at AAPOR 2026 · Ongoing</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Cross-cultural</span>
-            <span class="badge slate">Safety messaging</span>
-            <span class="badge">Frontier AI forum</span>
+          <div class="tags">
+            <span class="tag forest">Cross-cultural</span>
+            <span class="tag slate">Safety messaging</span>
+            <span class="tag">Frontier AI forum</span>
           </div>
           <p class="desc">
             Comparing public mental models of AI among U.S. and Indian participants in the Frontier AI Industry Forum,
@@ -156,10 +161,10 @@
               <div class="cardMeta">Research Assistant, Co-Author · Wharton Human-AI Lab · Ongoing</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Product design</span>
-            <span class="badge slate">Agent UX</span>
-            <span class="badge">Landscape study</span>
+          <div class="tags">
+            <span class="tag forest">Product design</span>
+            <span class="tag slate">Agent UX</span>
+            <span class="tag">Landscape study</span>
           </div>
           <p class="desc">
             Identifying key features across 50+ consumer-facing AI agent applications, with the aim of developing an agent to test with a randomized group of 100 individuals.
@@ -170,9 +175,11 @@
     </section>
 
     <section class="section">
-      <h2 class="sectionTitle">Applied work and writing</h2>
-      <p class="sectionHint">
-        Product-driven reliability research, hackathon projects, and a weekly research synthesis newsletter.
+      <div class="sectionHeader">
+        <h2 class="sectionTitle">Applied work and writing</h2>
+      </div>
+      <p class="sectionSub">
+        Product-driven reliability research, hackathon work, and a weekly research synthesis newsletter.
       </p>
 
       <div class="cards">
@@ -183,17 +190,17 @@
               <div class="cardMeta">Co-Founder · Top 10 Finalist, AI Hackathon · Launching January 2026</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Reliability</span>
-            <span class="badge slate">Trust scoring</span>
-            <span class="badge">Exa + Perplexity APIs</span>
+          <div class="tags">
+            <span class="tag forest">Reliability</span>
+            <span class="tag slate">Trust scoring</span>
+            <span class="tag">Exa + Perplexity</span>
           </div>
           <p class="desc">
             Designed a trust-scoring framework for LLM outputs using Exa and Perplexity APIs.
             Developed research-informed scoring weights across accuracy, sycophancy, and reliability grounded in AI and HCI literature.
           </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Product overview</a>
+          <div class="cardLinks">
+            <a class="btn" href="#">Product overview</a>
           </div>
         </article>
 
@@ -204,17 +211,17 @@
               <div class="cardMeta">Best Overall Product (2025) · Selected from 100+ teams</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Civic tech</span>
-            <span class="badge slate">Tax assistant</span>
-            <span class="badge">LLM workflow</span>
+          <div class="tags">
+            <span class="tag forest">Civic tech</span>
+            <span class="tag slate">Tax assistant</span>
+            <span class="tag">LLM workflow</span>
           </div>
           <p class="desc">
             Pitched and built an MVP for an LLM-based tax assistant for international students and gig workers.
             Chosen as Best Overall Product out of 100+ hackathon entries.
           </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Pitch deck</a>
+          <div class="cardLinks">
+            <a class="btn" href="#">Pitch deck</a>
           </div>
         </article>
 
@@ -225,16 +232,16 @@
               <div class="cardMeta">Substack newsletter · Weekly synthesis of technical papers and policy-relevant headlines</div>
             </div>
           </div>
-          <div class="badges">
-            <span class="badge forest">Research synthesis</span>
-            <span class="badge slate">AI policy</span>
-            <span class="badge">Safety</span>
+          <div class="tags">
+            <span class="tag forest">Research synthesis</span>
+            <span class="tag slate">AI policy</span>
+            <span class="tag">Safety</span>
           </div>
           <p class="desc">
-            A weekly synthesis of new technical papers and current events related to AI policy and safety, written for researchers, builders, and policymakers.
+            Weekly synthesis of technical papers and recent headlines that relate to AI policy and safety, written for researchers, builders, and policymakers.
           </p>
-          <div class="links">
-            <a class="linkBtn" href="https://theweeklythesis.substack.com/">Read on Substack</a>
+          <div class="cardLinks">
+            <a class="btn" href="https://theweeklythesis.substack.com/">Read on Substack</a>
           </div>
         </article>
       </div>
