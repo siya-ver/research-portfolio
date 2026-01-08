@@ -1,0 +1,10 @@
+body { 
+  font-family: "Times New Roman", Times, serif; 
+  background: #FBFBF8; 
+  color: #141A17; 
+  max-width: 980px; 
+  margin: 30px auto; 
+  padding: 0 18px;
+}
+h1 { font-size: 40px; }
+a { color: #2F5D50; }
