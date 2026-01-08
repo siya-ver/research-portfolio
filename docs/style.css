@@ -1,3 +1,6 @@
+html { scroll-behavior: smooth; }
+.section { scroll-margin-top: 90px; }
+
 :root{
   --bg:#FBFBF8;
   --panel:#FFFFFF;
