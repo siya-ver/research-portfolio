@@ -7,191 +7,243 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="index.html">Siya Verma</a>
+  <div class="container">
+    <header class="topbar">
+      <div class="brand">Siya Verma</div>
       <nav class="nav">
-        <a class="nav-link active" href="index.html">About</a>
-        <a class="nav-link" href="pages/publications.html">Publications</a>
-        <a class="nav-link" href="pages/talks.html">Talks</a>
-        <a class="nav-link" href="pages/initiatives.html">Initiatives</a>
-        <a class="nav-link" href="pages/web-presence.html">Web presence</a>
+        <a class="active" href="index.html">About</a>
+        <a href="pages/publications.html">Publications</a>
+        <a href="pages/talks.html">Talks</a>
+        <a href="pages/web-presence.html">Web presence</a>
       </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="layout">
-    <aside class="sidebar">
+    <section class="hero">
       <img class="avatar" src="assets/img/headshot.jpg" alt="Headshot" />
-      <h1 class="name">Siya Verma</h1>
-      <p class="subtitle">
-        Research portfolio in AI policy, HCI, and public opinion.<br />
-        Work presented at APSA, Stanford, Yale, US Congress, and more.
-      </p>
+      <div>
+        <h1 class="hi">Hi, I’m Siya.</h1>
+        <p class="subline">
+          I research AI governance, human–AI interaction, and public opinion, with a focus on how trust is formed and how reliability can be made legible to users.
+          My work has been presented at APSA, Stanford, Yale, and in briefings to the US Congress.
+        </p>
 
-      <div class="links">
-        <a class="iconlink" href="mailto:siyaver@sas.upenn.edu">Email</a>
-        <a class="iconlink" href="https://linkedin.com/in/siyaverma">LinkedIn</a>
-        <a class="iconlink" href="https://github.com/siya-ver">GitHub</a>
-        <a class="iconlink" href="https://theweeklythesis.substack.com/">Substack</a>
-      </div>
-
-      <div class="mini">
-        <h3>Focus Areas</h3>
-        <ul>
-          <li>AI governance and trust</li>
-          <li>Human–AI interaction</li>
-          <li>Public opinion and deliberation</li>
-          <li>Product-facing AI reliability</li>
-        </ul>
-      </div>
-    </aside>
-
-    <section class="content">
-      <h2>About</h2>
-      <p class="lead">
-        This portfolio showcases selected research in AI governance, human–AI interaction,
-        education policy, and alignment. My work spans Stanford University’s Deliberative
-        Democracy Lab, Wharton’s Human-AI Lab, and startup research at Ezio focused on LLM
-        reliability and hallucination detection.
-      </p>
-
-      <p>
-        My contributions sit at the intersection of research, policy, and product insight.
-        I specialize in translating complex qualitative and quantitative findings into
-        actionable strategies for product teams, policymakers, and academic audiences.
-      </p>
-
-      <h3>Research Projects</h3>
-
-      <div class="list">
-        <div class="item">
-          <div class="item-title">AI–Human Interaction Dynamics</div>
-          <div class="item-meta">
-            Lead Author · APSA 2025, Stanford AI Industry Symposium · Forthcoming book chapter (2026)
-          </div>
-          <p class="item-desc">
-            Led qualitative coding of 4,000+ AI community forum transcript lines to analyze
-            public opinion on AI–human interaction. Co-authored with researchers from
-            Princeton, Yale, and Harvard. Findings are being translated into internal
-            insights for a global AI firm.
-          </p>
-        </div>
-
-        <div class="item">
-          <div class="item-title">AI in Education – Global Deliberative Polling</div>
-          <div class="item-meta">
-            Project and Research Lead · Yale AI Governance Conference · iCivics · US Congress
-          </div>
-          <p class="item-desc">
-            Designed and launched three national deliberative polling events engaging
-            students, teachers, and school boards. Results informed education policy
-            discussions in Albania and Greece and were presented in briefings to
-            45+ members of Congress.
-          </p>
-          <div class="item-links">
-            <a href="#">Student Perspectives Fact Sheet (CSBA)</a>
-            <a href="#">Educator Perspectives Fact Sheet (CSBA)</a>
-            <a href="#">All Reports</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-title">Youth Perspectives on AI and Social Media</div>
-          <div class="item-meta">
-            Lead Author · APSA 2025 · Under Review
-          </div>
-          <p class="item-desc">
-            Analyzed 400+ responses from first-time voters in “America in One Room: Youth Vote”
-            using Excel-based thematic analysis. Focused on youth sentiment around AI,
-            privacy, and platform governance.
-          </p>
-        </div>
-
-        <div class="item">
-          <div class="item-title">
-            Mental Models of AI Agents: Cross-Cultural Perceptions in the US and India
-          </div>
-          <div class="item-meta">
-            Lead Author · To be presented at AAPOR 2026 · Ongoing
-          </div>
-          <p class="item-desc">
-            Comparative qualitative study of public mental models of AI among U.S. and Indian
-            participants in the Frontier AI Industry Forum, organized by Stanford University
-            and companies including Meta, DoorDash, and Cohere. Examines implications for
-            trust, alignment, and safety communication.
-          </p>
-        </div>
-
-        <div class="item">
-          <div class="item-title">
-            Designing Consumer-Facing AI Agents Users Want to Use
-          </div>
-          <div class="item-meta">
-            Research Assistant, Co-Author · Wharton Human-AI Lab · Ongoing
-          </div>
-          <p class="item-desc">
-            Identifying key design patterns across 50+ consumer-facing AI agent applications.
-            Work aims to prototype and test an agent with a randomized group of 100 users,
-            informing practitioners designing trustworthy AI systems.
-          </p>
-        </div>
-      </div>
-
-      <h3>Hackathons and Applied Work</h3>
-
-      <div class="list">
-        <div class="item">
-          <div class="item-title">Ezio: LLM Hallucination Detection and Trust Scoring</div>
-          <div class="item-meta">
-            Co-Founder · Top 10 Finalist, AI Hackathon
-          </div>
-          <p class="item-desc">
-            Designed a research-informed trust scoring framework for LLM outputs using Exa
-            and Perplexity APIs. Developed novel weighting across accuracy, sycophancy, and
-            reliability grounded in AI and HCI literature.
-          </p>
-          <div class="item-links">
-            <a href="#">Product Overview (Launching January 2026)</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-title">Penn AI for Social Good Hackathon Winner (2025)</div>
-          <div class="item-meta">
-            Best Overall Product · 100+ Teams
-          </div>
-          <p class="item-desc">
-            Built an MVP LLM-based tax assistant for international students and gig workers.
-            Selected as Best Overall Product among more than 100 hackathon entries.
-          </p>
-          <div class="item-links">
-            <a href="#">Pitch Deck</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="item-title">The Weekly Thesis</div>
-          <div class="item-meta">
-            Author · Substack Newsletter
-          </div>
-          <p class="item-desc">
-            Weekly synthesis of technical AI research papers alongside current headlines
-            related to AI policy, governance, and safety.
-          </p>
-          <div class="item-links">
-            <a href="https://theweeklythesis.substack.com/">Read on Substack</a>
-          </div>
+        <div class="metaRow">
+          <div class="pill"><span class="label">Email</span> <span>siyaver[at]sas.upenn.edu</span></div>
+          <a class="pill" href="https://linkedin.com/in/siyaverma"><span class="label">LinkedIn</span> <span>linkedin.com/in/siyaverma</span></a>
+          <a class="pill" href="https://github.com/siya-ver"><span class="label">GitHub</span> <span>github.com/siya-ver</span></a>
+          <a class="pill" href="https://theweeklythesis.substack.com/"><span class="label">Substack</span> <span>theweeklythesis.substack.com</span></a>
         </div>
       </div>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="footer-inner">
+    <section class="section">
+      <h2 class="sectionTitle">Focus</h2>
+      <p class="sectionHint">
+        I work at the intersection of research, policy, and product insight, translating qualitative and quantitative findings into strategies for product teams, policymakers, and academic audiences.
+      </p>
+
+      <div class="split">
+        <div class="card">
+          <h3 class="smallTitle">Core areas</h3>
+          <ul class="list">
+            <li>AI governance and trust</li>
+            <li>Human–AI interaction and user mental models</li>
+            <li>Deliberative polling and public opinion</li>
+            <li>Product-facing reliability and transparency signals</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3 class="smallTitle">Methods</h3>
+          <ul class="list">
+            <li>Qualitative coding and thematic analysis</li>
+            <li>Survey and deliberative polling design</li>
+            <li>Mixed-methods synthesis for stakeholders</li>
+            <li>Applied prototyping for trust scoring and reliability</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">Research projects</h2>
+      <p class="sectionHint">
+        Selected work across AI–human interaction, education policy, and cross-cultural perceptions of AI agents.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">AI–Human Interaction Dynamics</h3>
+              <div class="cardMeta">Lead Author · APSA 2025, Stanford AI Industry Symposium · Forthcoming book chapter (2026)</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">HCI</span>
+            <span class="badge slate">Public opinion</span>
+            <span class="badge">Qualitative coding</span>
+          </div>
+          <p class="desc">
+            Led qualitative coding of 4,000+ AI community forum transcript lines to analyze public opinion on AI–human interaction.
+            Co-authored with researchers from Princeton, Yale, and Harvard. Findings are being translated into internal insights for a global AI firm.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">AI in Education – Global Deliberative Polling</h3>
+              <div class="cardMeta">Project and Research Lead · Yale AI Governance Conference, iCivics · Congressional briefing (45+ members)</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Policy</span>
+            <span class="badge slate">Education</span>
+            <span class="badge">Deliberative polling</span>
+          </div>
+          <p class="desc">
+            Designed and launched three national education polling events engaging students, teachers, and school boards.
+            Results informed international education policy in Albania and Greece.
+          </p>
+          <div class="links">
+            <a class="linkBtn" href="#">Student Perspectives (CSBA)</a>
+            <a class="linkBtn" href="#">Educator Perspectives (CSBA)</a>
+            <a class="linkBtn" href="#">All reports</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">Youth Perspectives on AI and Social Media</h3>
+              <div class="cardMeta">Lead Author · APSA 2025 · Under review</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Governance</span>
+            <span class="badge slate">Youth vote</span>
+            <span class="badge">Thematic analysis</span>
+          </div>
+          <p class="desc">
+            Analyzed 400+ responses from first-time voters in “America in One Room: Youth Vote” using Excel-based thematic analysis,
+            focusing on youth sentiment around AI, privacy, and content governance.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">Mental Models of AI Agents: US and India</h3>
+              <div class="cardMeta">Lead Author · To be presented at AAPOR 2026 · Ongoing</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Cross-cultural</span>
+            <span class="badge slate">Safety messaging</span>
+            <span class="badge">Frontier AI forum</span>
+          </div>
+          <p class="desc">
+            Comparing public mental models of AI among U.S. and Indian participants in the Frontier AI Industry Forum,
+            organized by Stanford University and companies including Meta, DoorDash, and Cohere. Exploring implications for trust, alignment, and safety messaging.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">Designing Consumer-Facing AI Agents Users Want to Use</h3>
+              <div class="cardMeta">Research Assistant, Co-Author · Wharton Human-AI Lab · Ongoing</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Product design</span>
+            <span class="badge slate">Agent UX</span>
+            <span class="badge">Landscape study</span>
+          </div>
+          <p class="desc">
+            Identifying key features across 50+ consumer-facing AI agent applications, with the aim of developing an agent to test with a randomized group of 100 individuals.
+            Findings will inform practitioners designing agents users trust.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="sectionTitle">Applied work and writing</h2>
+      <p class="sectionHint">
+        Product-driven reliability research, hackathon projects, and a weekly research synthesis newsletter.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">Ezio: LLM Hallucination Detection and Trust Scoring</h3>
+              <div class="cardMeta">Co-Founder · Top 10 Finalist, AI Hackathon · Launching January 2026</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Reliability</span>
+            <span class="badge slate">Trust scoring</span>
+            <span class="badge">Exa + Perplexity APIs</span>
+          </div>
+          <p class="desc">
+            Designed a trust-scoring framework for LLM outputs using Exa and Perplexity APIs.
+            Developed research-informed scoring weights across accuracy, sycophancy, and reliability grounded in AI and HCI literature.
+          </p>
+          <div class="links">
+            <a class="linkBtn" href="#">Product overview</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">Penn AI for Social Good Hackathon Winner</h3>
+              <div class="cardMeta">Best Overall Product (2025) · Selected from 100+ teams</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Civic tech</span>
+            <span class="badge slate">Tax assistant</span>
+            <span class="badge">LLM workflow</span>
+          </div>
+          <p class="desc">
+            Pitched and built an MVP for an LLM-based tax assistant for international students and gig workers.
+            Chosen as Best Overall Product out of 100+ hackathon entries.
+          </p>
+          <div class="links">
+            <a class="linkBtn" href="#">Pitch deck</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="cardTop">
+            <div>
+              <h3 class="cardTitle">The Weekly Thesis</h3>
+              <div class="cardMeta">Substack newsletter · Weekly synthesis of technical papers and policy-relevant headlines</div>
+            </div>
+          </div>
+          <div class="badges">
+            <span class="badge forest">Research synthesis</span>
+            <span class="badge slate">AI policy</span>
+            <span class="badge">Safety</span>
+          </div>
+          <p class="desc">
+            A weekly synthesis of new technical papers and current events related to AI policy and safety, written for researchers, builders, and policymakers.
+          </p>
+          <div class="links">
+            <a class="linkBtn" href="https://theweeklythesis.substack.com/">Read on Substack</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
       © <span id="y"></span> Siya Verma
-    </div>
-  </footer>
+    </footer>
+  </div>
 
   <script>
     document.getElementById("y").textContent = new Date().getFullYear();
