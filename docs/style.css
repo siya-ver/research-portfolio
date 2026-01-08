@@ -1,252 +1,277 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Siya Verma | Research Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-  <div class="container">
-    <header class="topbar">
-      <div class="brand">Siya Verma</div>
-      <nav class="nav">
-        <a class="active" href="index.html">About</a>
-        <a href="pages/publications.html">Publications</a>
-        <a href="pages/talks.html">Talks</a>
-        <a href="pages/web-presence.html">Web presence</a>
-      </nav>
-    </header>
+:root{
+  --bg:#FBFBF8;
+  --panel:#FFFFFF;
+  --text:#121816;
+  --muted:#5E6A63;
+  --border:#E6EFE8;
+  --shadow: 0 14px 40px rgba(18,24,22,.08);
 
-    <section class="hero">
-      <img class="avatar" src="assets/img/headshot.jpg" alt="Headshot" />
-      <div>
-        <h1 class="hi">Hi, I’m Siya.</h1>
-        <p class="subline">
-          I research AI governance, human–AI interaction, and public opinion, with a focus on how trust is formed and how reliability can be made legible to users.
-          My work has been presented at APSA, Stanford, Yale, and in briefings to the US Congress.
-        </p>
+  --forest:#2F5D50;
+  --slate:#2B4C7E;
+  --sage:#E6F0EB;
 
-        <div class="metaRow">
-          <div class="pill"><span class="label">Email</span> <span>siyaver[at]sas.upenn.edu</span></div>
-          <a class="pill" href="https://linkedin.com/in/siyaverma"><span class="label">LinkedIn</span> <span>linkedin.com/in/siyaverma</span></a>
-          <a class="pill" href="https://github.com/siya-ver"><span class="label">GitHub</span> <span>github.com/siya-ver</span></a>
-          <a class="pill" href="https://theweeklythesis.substack.com/"><span class="label">Substack</span> <span>theweeklythesis.substack.com</span></a>
-        </div>
-      </div>
-    </section>
+  --radius:16px;
+}
 
-    <section class="section">
-      <h2 class="sectionTitle">Focus</h2>
-      <p class="sectionHint">
-        I work at the intersection of research, policy, and product insight, translating qualitative and quantitative findings into strategies for product teams, policymakers, and academic audiences.
-      </p>
+*{ box-sizing:border-box; }
+html, body{ height:100%; }
 
-      <div class="split">
-        <div class="card">
-          <h3 class="smallTitle">Core areas</h3>
-          <ul class="list">
-            <li>AI governance and trust</li>
-            <li>Human–AI interaction and user mental models</li>
-            <li>Deliberative polling and public opinion</li>
-            <li>Product-facing reliability and transparency signals</li>
-          </ul>
-        </div>
+body{
+  margin:0;
+  background:
+    radial-gradient(900px 420px at 18% -12%, rgba(47,93,80,.12), transparent 55%),
+    radial-gradient(900px 420px at 92% -10%, rgba(43,76,126,.08), transparent 55%),
+    var(--bg);
+  color:var(--text);
+  line-height:1.65;
+  font-family:"Times New Roman", Times, serif;
+}
 
-        <div class="card">
-          <h3 class="smallTitle">Methods</h3>
-          <ul class="list">
-            <li>Qualitative coding and thematic analysis</li>
-            <li>Survey and deliberative polling design</li>
-            <li>Mixed-methods synthesis for stakeholders</li>
-            <li>Applied prototyping for trust scoring and reliability</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+a{ color:var(--slate); text-decoration:none; }
+a:hover{ text-decoration:underline; }
 
-    <section class="section">
-      <h2 class="sectionTitle">Research projects</h2>
-      <p class="sectionHint">
-        Selected work across AI–human interaction, education policy, and cross-cultural perceptions of AI agents.
-      </p>
+.container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 22px 18px 70px;
+}
 
-      <div class="cards">
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">AI–Human Interaction Dynamics</h3>
-              <div class="cardMeta">Lead Author · APSA 2025, Stanford AI Industry Symposium · Forthcoming book chapter (2026)</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">HCI</span>
-            <span class="badge slate">Public opinion</span>
-            <span class="badge">Qualitative coding</span>
-          </div>
-          <p class="desc">
-            Led qualitative coding of 4,000+ AI community forum transcript lines to analyze public opinion on AI–human interaction.
-            Co-authored with researchers from Princeton, Yale, and Harvard. Findings are being translated into internal insights for a global AI firm.
-          </p>
-        </article>
+/* Top nav like the inspiration */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom: 18px;
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">AI in Education – Global Deliberative Polling</h3>
-              <div class="cardMeta">Project and Research Lead · Yale AI Governance Conference, iCivics · Congressional briefing (45+ members)</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Policy</span>
-            <span class="badge slate">Education</span>
-            <span class="badge">Deliberative polling</span>
-          </div>
-          <p class="desc">
-            Designed and launched three national education polling events engaging students, teachers, and school boards.
-            Results informed international education policy in Albania and Greece.
-          </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Student Perspectives (CSBA)</a>
-            <a class="linkBtn" href="#">Educator Perspectives (CSBA)</a>
-            <a class="linkBtn" href="#">All reports</a>
-          </div>
-        </article>
+.siteName{
+  font-weight:700;
+  font-size:18px;
+  color:var(--text);
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">Youth Perspectives on AI and Social Media</h3>
-              <div class="cardMeta">Lead Author · APSA 2025 · Under review</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Governance</span>
-            <span class="badge slate">Youth vote</span>
-            <span class="badge">Thematic analysis</span>
-          </div>
-          <p class="desc">
-            Analyzed 400+ responses from first-time voters in “America in One Room: Youth Vote” using Excel-based thematic analysis,
-            focusing on youth sentiment around AI, privacy, and content governance.
-          </p>
-        </article>
+.nav{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">Mental Models of AI Agents: US and India</h3>
-              <div class="cardMeta">Lead Author · To be presented at AAPOR 2026 · Ongoing</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Cross-cultural</span>
-            <span class="badge slate">Safety messaging</span>
-            <span class="badge">Frontier AI forum</span>
-          </div>
-          <p class="desc">
-            Comparing public mental models of AI among U.S. and Indian participants in the Frontier AI Industry Forum,
-            organized by Stanford University and companies including Meta, DoorDash, and Cohere. Exploring implications for trust, alignment, and safety messaging.
-          </p>
-        </article>
+.nav a{
+  font-size:14px;
+  color:var(--muted);
+  padding: 6px 8px;
+  border-radius: 10px;
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">Designing Consumer-Facing AI Agents Users Want to Use</h3>
-              <div class="cardMeta">Research Assistant, Co-Author · Wharton Human-AI Lab · Ongoing</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Product design</span>
-            <span class="badge slate">Agent UX</span>
-            <span class="badge">Landscape study</span>
-          </div>
-          <p class="desc">
-            Identifying key features across 50+ consumer-facing AI agent applications, with the aim of developing an agent to test with a randomized group of 100 individuals.
-            Findings will inform practitioners designing agents users trust.
-          </p>
-        </article>
-      </div>
-    </section>
+.nav a.active{
+  color:var(--text);
+  background: rgba(47,93,80,.10);
+}
 
-    <section class="section">
-      <h2 class="sectionTitle">Applied work and writing</h2>
-      <p class="sectionHint">
-        Product-driven reliability research, hackathon projects, and a weekly research synthesis newsletter.
-      </p>
+/* Hero */
+.hero{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  gap:18px;
+  align-items:start;
+  padding: 18px;
+  background: var(--panel);
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
 
-      <div class="cards">
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">Ezio: LLM Hallucination Detection and Trust Scoring</h3>
-              <div class="cardMeta">Co-Founder · Top 10 Finalist, AI Hackathon · Launching January 2026</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Reliability</span>
-            <span class="badge slate">Trust scoring</span>
-            <span class="badge">Exa + Perplexity APIs</span>
-          </div>
-          <p class="desc">
-            Designed a trust-scoring framework for LLM outputs using Exa and Perplexity APIs.
-            Developed research-informed scoring weights across accuracy, sycophancy, and reliability grounded in AI and HCI literature.
-          </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Product overview</a>
-          </div>
-        </article>
+.avatar{
+  width: 130px;
+  height: 130px;
+  border-radius: 999px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 12px 26px rgba(18,24,22,.14);
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">Penn AI for Social Good Hackathon Winner</h3>
-              <div class="cardMeta">Best Overall Product (2025) · Selected from 100+ teams</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Civic tech</span>
-            <span class="badge slate">Tax assistant</span>
-            <span class="badge">LLM workflow</span>
-          </div>
-          <p class="desc">
-            Pitched and built an MVP for an LLM-based tax assistant for international students and gig workers.
-            Chosen as Best Overall Product out of 100+ hackathon entries.
-          </p>
-          <div class="links">
-            <a class="linkBtn" href="#">Pitch deck</a>
-          </div>
-        </article>
+.hi{
+  margin:0 0 8px;
+  font-size: 40px;
+  letter-spacing:.2px;
+}
 
-        <article class="card">
-          <div class="cardTop">
-            <div>
-              <h3 class="cardTitle">The Weekly Thesis</h3>
-              <div class="cardMeta">Substack newsletter · Weekly synthesis of technical papers and policy-relevant headlines</div>
-            </div>
-          </div>
-          <div class="badges">
-            <span class="badge forest">Research synthesis</span>
-            <span class="badge slate">AI policy</span>
-            <span class="badge">Safety</span>
-          </div>
-          <p class="desc">
-            A weekly synthesis of new technical papers and current events related to AI policy and safety, written for researchers, builders, and policymakers.
-          </p>
-          <div class="links">
-            <a class="linkBtn" href="https://theweeklythesis.substack.com/">Read on Substack</a>
-          </div>
-        </article>
-      </div>
-    </section>
+.blurb{
+  margin:0;
+  color:var(--text);
+  font-size:16px;
+}
 
-    <footer class="footer">
-      © <span id="y"></span> Siya Verma
-    </footer>
-  </div>
+.linksRow{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top: 10px;
+  align-items:center;
+}
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+.linkPill{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  color:var(--muted);
+}
+
+.linkPill a{
+  color:var(--slate);
+  font-weight:700;
+}
+
+.emailText{
+  color:var(--muted);
+  font-size:14px;
+  margin-top: 10px;
+}
+
+/* Sections */
+.section{
+  margin-top: 28px;
+}
+
+.sectionHeader{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  margin-bottom: 10px;
+}
+
+.sectionTitle{
+  margin:0;
+  font-size:22px;
+}
+
+.sectionSub{
+  margin: 0 0 14px;
+  color:var(--muted);
+}
+
+/* Cards like publications list */
+.cards{
+  display:grid;
+  gap: 14px;
+}
+
+.card{
+  background: var(--panel);
+  border:1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.cardTop{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:14px;
+}
+
+.cardTitle{
+  margin:0;
+  font-size:18px;
+  line-height:1.25;
+}
+
+.cardMeta{
+  margin-top: 6px;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top: 10px;
+}
+
+.tag{
+  font-size:12px;
+  padding: 5px 8px;
+  border-radius: 999px;
+  border:1px solid var(--border);
+  background:#fff;
+  color:var(--muted);
+}
+
+.tag.forest{
+  background: rgba(47,93,80,.10);
+  border-color: rgba(47,93,80,.18);
+  color: var(--forest);
+}
+
+.tag.slate{
+  background: rgba(43,76,126,.10);
+  border-color: rgba(43,76,126,.18);
+  color: var(--slate);
+}
+
+.desc{
+  margin: 12px 0 0;
+  font-size:15px;
+  color:var(--text);
+}
+
+.cardLinks{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top: 12px;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border:1px solid var(--border);
+  background:#fff;
+  font-weight:700;
+  font-size:13px;
+  color:var(--slate);
+}
+
+.btn:hover{
+  background: rgba(230,240,235,.55);
+  text-decoration:none;
+}
+
+/* Two-column “Focus” block */
+.grid2{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:14px;
+}
+
+.boxTitle{
+  margin:0 0 8px;
+  font-size:16px;
+}
+
+ul.clean{
+  margin:0;
+  padding-left: 18px;
+  color: var(--muted);
+}
+
+ul.clean li{ margin:6px 0; }
+
+.footer{
+  margin-top: 36px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 760px){
+  .hero{ grid-template-columns: 1fr; }
+  .avatar{ width: 115px; height: 115px; }
+  .grid2{ grid-template-columns: 1fr; }
+}
